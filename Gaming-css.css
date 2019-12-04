@@ -1,0 +1,44 @@
+ html {
+    height: max-content;
+    width: max-content;
+    margin: 40px auto;
+ }
+ 
+ body {
+    background-image: url(http://getwallpapers.com/wallpaper/full/4/4/2/33600.jpg);
+    object-fit: fill;
+}
+
+h1 {
+    color: white;
+}
+
+.jumbotron {
+    background-color: #e983ead1;
+}
+
+.btn-primary {
+background-color: black;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col-md-3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blanchedalmond;
+}
+
+.card {
+    background-color: #e983ead1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .container {
+        width: max-content;
+        height: max-content;
+    }
+}
